@@ -56,6 +56,8 @@ int main() {
 		f(vec[i]);
 	}
 
+//	std::for_each(vec.begin(), vec.end(), f); //Эта часть кода работает неверно. При ее выполнении не происходит увеличение sum и count
+
 	std::cout << "[OUT]: " << "get_sum() " << f.get_sum() << std::endl;
 	std::cout << "[OUT]: " << "get_count() " << f.get_count() << std::endl;
 }
